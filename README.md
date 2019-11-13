@@ -41,12 +41,15 @@ yarn mykit-install
 
 ## 注意
 - このツールは以下のファイルを強制的に書き換えます。すでに存在する場合はバックアップを残すなどして、ご注意ください。
-  - ./tsconfig.json
-  - ./webpack.config.js
-  - ./index.html
-  - ./bs-config.js
-  - ./.eslintrc
-  - ./.eslintignore
-  - ./vscode/setting.json
-  - ./@types/assets.d.ts
-  - ./src/index.ts
+  - 追記
+    - ./package.json
+  - 破壊的変更
+    - ./tsconfig.json
+    - ./webpack.config.js
+    - ./index.html
+    - ./bs-config.js
+    - ./.eslintrc
+    - ./.eslintignore
+    - ./vscode/setting.json
+    - ./@types/assets.d.ts
+    - ./src/index.ts
