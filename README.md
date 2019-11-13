@@ -2,6 +2,8 @@
 
 自分用の TypeScript Development Kit
 
+これを使用することで、TypeScript + Webpack + BrowserSync な環境をスピーディに構築できる。
+
 ```
 yarn add katai5plate/mykit-ts
 node -e "require('mykit-ts')();"
