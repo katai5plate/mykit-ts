@@ -2,7 +2,7 @@
 
 自分用の TypeScript Development Kit
 
-これを使用することで、TypeScript + Webpack + Browsersync な環境をスピーディに構築できる。
+これを使用することで、TypeScript + Webpack + Browsersync + ESLint な環境をスピーディに構築できる。
 
 ## 必要なもの
 - Node.js
