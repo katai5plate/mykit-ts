@@ -7,6 +7,10 @@ You can setup a "TypeScript + webpack + Browsersync + ESLint" environment with 3
 ## Require
 - Node.js
 - Yarn
+- Visual Studio Code
+- Visual Studio Code Extension:
+  - ESLint
+  - Prettier
 
 ## Usage
 - In a new project:
