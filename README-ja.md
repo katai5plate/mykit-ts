@@ -7,6 +7,10 @@
 ## 必要なもの
 - Node.js
 - Yarn
+- Visual Studio Code
+- Visual Studio Code 拡張
+  - ESLint
+  - Prettier
 
 ## 環境構築方法
 - 新規プロジェクト内で以下を実行する。
