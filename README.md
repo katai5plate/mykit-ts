@@ -4,6 +4,8 @@
 
 You can setup a "TypeScript + webpack + Browsersync + ESLint" environment with 3 lines.
 
+- Powered by https://github.com/katai5plate/mykit-core
+
 ## Require
 - Node.js
 - Yarn
