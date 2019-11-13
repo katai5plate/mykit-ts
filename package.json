@@ -9,7 +9,6 @@
     "start": "node test.js"
   },
   "dependencies": {
-    "fs-extra": "^8.1.0",
-    "mykit-ts": "katai5plate/mykit-ts"
+    "fs-extra": "^8.1.0"
   }
 }
