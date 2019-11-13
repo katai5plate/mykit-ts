@@ -3,6 +3,5 @@
   "build": "rimraf ./dist && webpack",
   "watch": "rimraf ./dist && webpack -w",
   "serve": "browser-sync start --config ./bs-config.js",
-  "mykit-install-n": "npm i -D npm-run-all rimraf browser-sync typescript webpack webpack-cli ts-loader html-webpack-plugin style-loader css-loader file-loader",
-  "mykit-install-y": "yarn add -D npm-run-all rimraf browser-sync typescript webpack webpack-cli ts-loader html-webpack-plugin style-loader css-loader file-loader"
+  "mykit-install": "yarn add -D npm-run-all rimraf browser-sync typescript webpack webpack-cli ts-loader html-webpack-plugin style-loader css-loader file-loader"
 }

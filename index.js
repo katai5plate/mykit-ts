@@ -33,7 +33,5 @@ module.exports = async () => {
   }
   console.log("DONE");
   console.log("");
-  console.log(
-    "RUN THIS:\n\nyarn mykit-install-y\n\n or \n\nnpm run mykit-install-n"
-  );
+  console.log("RUN THIS:\n\nyarn mykit-install");
 };
