@@ -1,49 +1,49 @@
 # mykit-ts
 
-自分用の TypeScript Development Kit
+- [日本語](./README-ja.md)
 
-これを使用することで、TypeScript + Webpack + Browsersync な環境をスピーディに構築できる。
+You can setup a TypeScript + webpack + Browsersync environment with 3 lines.
 
-## 必要なもの
+## Require
 - Node.js
 - Yarn
 
-## 環境構築方法
-- 新規プロジェクト内で以下を実行する。
+## Usage
+- In a new project:
 ```
 yarn add katai5plate/mykit-ts
 node -e "require('mykit-ts')();"
 yarn mykit-install
 ```
+```
+yarn start
+yarn build
+```
 
-## 環境構築後の使い方
-- サーバー起動: `yarn start`
-- ビルド実行: `yarn build`
+## Libs
 
-## 内訳
-
-### 基本
+### Basics
 - typescript
 - browser-sync
 - webpack
 - webpack-cli
 
-### Webpack 関係
+### Webpack
 - html-webpack-plugin
 - ts-loader
 - style-loader
 - css-loader
 - file-loader
 
-### npm-scripts 関係
+### npm-scripts
 - npm-run-all
 - rimraf
 
-## 注意
-- このツールは以下のファイルを強制的に書き換えます。すでに存在する場合はバックアップを残すなどして、ご注意ください。
-  - 追記
+## Warning!
+- This tool forcibly rewrites the following files:
+  - Add lines
     - ./package.json
-  - 破壊的変更
+  - Destructive change
     - ./tsconfig.json
     - ./webpack.config.js
     - ./index.html
