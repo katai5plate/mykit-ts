@@ -4,6 +4,8 @@
 
 これを使用することで、TypeScript + Webpack + Browsersync + ESLint な環境をスピーディに構築できる。
 
+コア: https://github.com/katai5plate/mykit-core
+
 ## 必要なもの
 - Node.js
 - Yarn
