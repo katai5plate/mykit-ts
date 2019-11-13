@@ -38,3 +38,15 @@ yarn mykit-install
 ### npm-scripts 関係
 - npm-run-all
 - rimraf
+
+## 注意
+- このツールは以下のファイルを強制的に書き換えます。すでに存在する場合はバックアップを残すなどして、ご注意ください。
+  - ./tsconfig.json
+  - ./webpack.config.js
+  - ./index.html
+  - ./bs-config.js
+  - ./.eslintrc
+  - ./.eslintignore
+  - ./vscode/setting.json
+  - ./@types/assets.d.ts
+  - ./src/index.ts
