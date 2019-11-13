@@ -4,13 +4,19 @@
 
 これを使用することで、TypeScript + Webpack + Browsersync な環境をスピーディに構築できる。
 
+## 必要なもの
+- Node.js
+- Yarn
+
+## 環境構築方法
+- 新規プロジェクト内で以下を実行する。
 ```
 yarn add katai5plate/mykit-ts
 node -e "require('mykit-ts')();"
 yarn mykit-install
 ```
 
-## 使い方
+## 環境構築後の使い方
 - サーバー起動: `yarn start`
 - ビルド実行: `yarn build`
 
