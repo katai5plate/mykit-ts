@@ -2,7 +2,7 @@
 
 - [日本語](./README-ja.md)
 
-You can setup a TypeScript + webpack + Browsersync environment with 3 lines.
+You can setup a "TypeScript + webpack + Browsersync + ESLint" environment with 3 lines.
 
 ## Require
 - Node.js
