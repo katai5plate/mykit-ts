@@ -1,0 +1,11 @@
+[
+  { "src": "tsconfig.json" },
+  { "src": "webpack.config.js" },
+  { "src": "index.html" },
+  { "src": "bs-config.js" },
+  { "src": ".eslintrc", "dist": ".eslintrc" },
+  { "src": ".eslintignore" },
+  { "src": "vscode.setting.json", "dir": "vscode", "dist": "setting.json" },
+  { "src": "assets.d.ts", "dir": "@types", "dist": "assets.d.ts" },
+  { "src": "index.ts", "dir": "src", "dist": "index.ts" }
+]
