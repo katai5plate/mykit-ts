@@ -9,6 +9,6 @@
     "start": "node test.js"
   },
   "dependencies": {
-    "fs-extra": "^8.1.0"
+    "mykit-core": "katai5plate/mykit-core"
   }
 }
