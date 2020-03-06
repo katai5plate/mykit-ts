@@ -17,9 +17,7 @@ You can setup a "TypeScript + webpack + Browsersync + ESLint" environment with 3
 ## Usage
 - In a new project:
 ```
-yarn add katai5plate/mykit-ts
-node -e "require('mykit-ts')();"
-yarn mykit-install
+yarn add katai5plate/mykit-ts && node -e "require('mykit-ts')();" && yarn mykit-install
 ```
 ```
 yarn start
